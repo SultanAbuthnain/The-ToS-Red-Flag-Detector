@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { ScanResult, RedFlag } from "@/app/page";
+import type { ScanResult, RedFlag } from "@/lib/types";
 
 interface ResultsSectionProps {
   result: ScanResult | null;
